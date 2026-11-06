@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jitendra Pant</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#fffdf5;
+color:#333;
+}
+
+.banner{
+position:relative;
+height:450px;
+overflow:hidden;
+}
+
+.banner-img{
+width:100%;
+height:100%;
+object-fit:cover;
+filter:brightness(75%);
+}
+
+.banner-text{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+color:white;
+width:90%;
+}
+
+.banner-text h1{
+font-size:4rem;
+margin-bottom:10px;
+}
+
+.banner-text h2{
+font-size:1.4rem;
+margin-bottom:15px;
+}
+
+.banner-text p{
+font-size:1rem;
+line-height:1.7;
+}
+
+.quote{
+color:#ffe082;
+font-style:italic;
+margin-top:10px;
+}
+
+.search-container{
+padding:20px;
+text-align:center;
+}
+
+.search-container input{
+width:90%;
+max-width:700px;
+padding:15px;
+border:none;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.dashboard{
+
+display:grid;
+
+grid-template-columns:
+repeat(3,1fr);
+
+gap:20px;
+
+padding:30px;
+}
+
+.main-card{
+
+background:
+linear-gradient(
+135deg,
+#fff8dc,
+#facc15
+);
+
+padding:25px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:
+0 10px 25px rgba(0,0,0,.1);
+
+transition:.3s;
+}
+
+.main-card:hover{
+transform:translateY(-8px);
+}
+
+.main-card h2{
+color:#7c5800;
+margin-bottom:10px;
+}
+
+.section{
+padding:30px;
+}
+
+.section-title{
+font-size:32px;
+text-align:center;
+margin-bottom:25px;
+color:#b8860b;
+}
+</style>
+</head>
+<script>
+
+function scrollToSection(id){
+
+document
+.getElementById(id)
+.scrollIntoView({
+behavior:'smooth'
+});
+
+}
+
+</script>
+<body>
+
+<header class="banner">
+
+<img
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_voZIV1cj6ytGARvBJKyQD65kqxYFEVoABo9FfA8GdA&s=10"
+class="banner-img">
+
+<div class="banner-text">
+
+<h1>Jitendra Pant</h1>
+
+<h2>
+Mentor | Author | Life Coach | Trainer
+</h2>
+
+<p>
+IIT Delhi Alumnus
+</p>
+
+<p>
+45+ Years of Professional Experience
+</p>
+
+<p>
+Sharing knowledge, experiences and ideas
+to inspire learning, growth and positive change.
+</p>
+
+<p class="quote">
+"रास्ते बदल जाते हैं पर मंज़िल नहीं झुकती..."
+</p>
+
+</div>
+
+</header>
+
+<div class="search-container">
+
+<input
+type="text"
+placeholder="Search books, writings and courses">
+
+</div>
+
+<section class="dashboard">
+
+<div class="main-card" onclick="scrollToSection('courses')">
+    <h2>📚 Courses</h2>
+    <p>Professional Development Programs</p>
+</div>
+
+<div class="main-card" onclick="scrollToSection('books')">
+    <h2>📖 Books</h2>
+    <p>22+ Published Books</p>
+</div>
+<div class="main-card" onclick="scrollToSection('writing')">
+    <h2>✍️ Writing</h2>
+    <p>Articles, Poems & Stories</p>
+</div>
+</div>
+
+<div class="main-card" onclick="scrollToSection('music')">
+    <h2>🎵 मन के स्वर</h2>
+</div>
+
+<div class="main-card" onclick="scrollToSection('jmps')">
+    <h2>❤️ JMPS Foundation</h2>
+</div>
+
+<div class="main-card" onclick="scrollToSection('latest')">
+    <h2>🌟 Latest</h2>
+</div>
+</section>
+<section class="section">
+
+<h2 class="section-title">
+📚 Courses
+</h2>
+
+<div class="dashboard">
+
+<div class="main-card">
+<h2>Operations Excellence</h2>
+
+<p>
+Operations Management<br>
+Kaizen<br>
+5S<br>
+Problem Solving<br>
+Quality<br>
+Continuous Improvement
+</p>
+
+<br>
+.main-card{
+cursor:pointer;
+}
+
+html{
+scroll-behavior:smooth;
+}
+<button>
+Interested? Contact Jitendra
+</button>
+
+</div>
+
+<div class="main-card">
+<h2>Skill Development</h2>
+
+<p>
+Practical Skills for Students<br>
+Practical Skills for Professionals
+</p>
+
+<br>
+
+<button>
+Interested? Contact Jitendra
+</button>
+
+</div>
+
+<div class="main-card">
+<h2>21-Day Career Excellence</h2>
+
+<p>
+Ownership<br>
+Domain Knowledge<br>
+Communication<br>
+Networking<br>
+Leadership
+</p>
+
+<br>
+
+<button>
+Interested? Contact Jitendra
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+✍️ Writing
+</h2>
+
+<div class="dashboard">
+
+<div class="main-card">
+<h2>
+विस्मय का सफ़र आपके साथ
+</h2>
+
+<p>
+Inspirational reflections.
+</p>
+</div>
+
+<div class="main-card">
+<h2>
+मेरी कहानियाँ
+</h2>
+
+<p>
+Personal stories and experiences.
+</p>
+</div>
+
+<div class="main-card">
+<h2>
+Articles & Reflections
+</h2>
+
+<p>
+Thought leadership and learning.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+🎵 मन के स्वर
+</h2>
+
+<div class="dashboard">
+
+<div class="main-card">
+<h2>Lyrics</h2>
+</div>
+
+<div class="main-card">
+<h2>Audio</h2>
+</div>
+
+<div class="main-card">
+<h2>YouTube</h2>
+</div>
+
+</div>
+
+</section>
+
+<section id="courses" class="section">
+    <section id="writing" class="section"></section>
+    <section id="music" class="section"></section><section id="jmps" class="section"></section>
+    <section id="latest" class="section"></section>
+<section id="books" class="section"></section>
+<h2 class="section-title">
+❤️ JMPS Foundation
+</h2>
+
+<div class="dashboard">
+
+<div class="main-card">
+<h2>Education</h2>
+</div>
+
+<div class="main-card">
+<h2>Healthcare</h2>
+</div>
+
+<div class="main-card">
+<h2>Scholarships</h2>
+</div>
+
+<div class="main-card">
+<h2>Impact Stories</h2>
+</div>
+
+</div>
+
+</section>
+<section class="section">
+
+<h2 class="section-title">
+📖 Books
+</h2>
+
+<div class="dashboard">
+
+<div class="main-card">
+<h2>
+Management & Operations
+</h2>
+
+<p>
+Operations Excellence<br>
+Operations Management Demystified<br>
+Go To Gemba<br>
+Problem Solving
+</p>
+
+</div>
+
+<div class="main-card">
+<h2>
+Self Development
+</h2>
+
+<p>
+Confidence Building<br>
+Nano Insights<br>
+Joy Of Saying No
+</p>
+
+</div>
+
+<div class="main-card">
+<h2>
+Life Experiences
+</h2>
+
+<p>
+Born Again At 75<br>
+Baby Mira Memoir<br>
+Trauma Of Falling Alone
+</p>
+
+</div>
+
+<div class="main-card">
+<h2>
+Hindi Literature
+</h2>
+
+<p>
+Wisdom In Verses<br>
+Imagination Across Generations
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+🌟 Latest Updates
+</h2>
+
+<div class="dashboard">
+
+<div class="main-card">
+<h2>📘 Newest Book</h2>
+<p>Born Again At 75</p>
+</div>
+
+<div class="main-card">
+<h2>✍️ Featured Article</h2>
+<p>Latest Reflection</p>
+</div>
+
+<div class="main-card">
+<h2>❤️ Foundation Initiative</h2>
+<p>Education Impact</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+Connect With Me
+</h2>
+
+<div class="dashboard">
+
+<div class="main-card">
+<h2>📧 Email</h2>
+</div>
+
+<div class="main-card">
+<h2>📱 WhatsApp</h2>
+</div>
+
+<div class="main-card">
+<h2>🌐 Website</h2>
+</div>
+
+<div class="main-card">
+<h2>💼 LinkedIn</h2>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div style="
+background:#facc15;
+padding:20px;
+text-align:center;
+font-weight:bold;
+">
+
+🏠 Home |
+📚 Courses |
+📖 Books |
+✍️ Writing |
+❤️ JMPS |
+🎵 Man Ke Swar
+
+</div>
+
+</footer>
+
+<style>
+
+button{
+background:#b8860b;
+color:white;
+border:none;
+padding:12px 18px;
+border-radius:10px;
+cursor:pointer;
+}
+
+button:hover{
+background:#7c5800;
+}
+
+@media(max-width:1000px){
+
+.dashboard{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.dashboard{
+grid-template-columns:1fr;
+}
+
+.banner-text h1{
+font-size:2.5rem;
+}
+
+}
+
+</style>
+
+</body>
+</html>
